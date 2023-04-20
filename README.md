@@ -15,16 +15,58 @@ Implement k-nearest neighbors classification using Python. This algorithm is use
 ## Experiment 4: K-Means Clustering
 Given the following data, which specify classifications for nine combinations of VAR1 and VAR2 predict a classification for a case where VAR1=0.906 and VAR2=0.606, using the result of k-means clustering with 3 means (i.e., 3 centroids)
 
-VAR1	VAR2	CLASS
-1.713	1.586	0
-0.180	1.786	1
-0.353	1.240	1
-0.940	1.566	0
-1.486	0.759	1
-1.266	1.106	0
-1.540	0.419	1
-0.459	1.799	1
-0.773	0.186	1
+<table>
+  <tr>
+    <th>VAR1</th>
+    <th>VAR2</th>
+    <th>CLASS</th>
+  </tr>
+  <tr>
+    <td>1.713</td>
+    <td>1.586</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0.180</td>
+    <td>1.786</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0.353</td>
+    <td>1.240</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0.940</td>
+    <td>1.566</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1.486</td>
+    <td>0.759</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1.266</td>
+    <td>1.106</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1.540</td>
+    <td>0.419</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0.459</td>
+    <td>1.799</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>0.773</td>
+    <td>0.186</td>
+    <td>1</td>
+  </tr>
+</table>
 
 ## Experiment 5: Conditional Probability Calculation
 Calculate the unconditional probability of golf and the conditional probability of single given medRisk in a dataset. The input attributes are income, recreation, job, status, age-group, and home-owner.
